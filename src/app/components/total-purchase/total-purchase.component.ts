@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { InvoiceDataService } from 'src/app/services/invoice-data.service';
 
 @Component({
@@ -6,7 +6,7 @@ import { InvoiceDataService } from 'src/app/services/invoice-data.service';
   templateUrl: './total-purchase.component.html',
   styleUrls: ['./total-purchase.component.css']
 })
-export class TotalPurchaseComponent {
+export class TotalPurchaseComponent implements OnInit {
   public invoices: any[] = [];
   totalPrice: number | undefined;
 
