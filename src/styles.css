@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    width: 70%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto; 
+    margin-top: 30px;
+}
+
+td {
+    color: gray;
+}

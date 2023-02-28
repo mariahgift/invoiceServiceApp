@@ -1,0 +1,12 @@
+h1 {
+    margin: auto;
+}
+
+#submit {
+    color: rgb(206, 42, 206);
+    font-weight: bold;
+}
+
+#title {
+    color: rgb(9, 9, 219);
+}
