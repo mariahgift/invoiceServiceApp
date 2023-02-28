@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InvoiceDetailsComponent } from './components/invoice-details/invoice-details.component';
 import { TotalPurchaseComponent } from './components/total-purchase/total-purchase.component';
+import { InvoiceDataService } from './services/invoice-data.service';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { TotalPurchaseComponent } from './components/total-purchase/total-purcha
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [InvoiceDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
